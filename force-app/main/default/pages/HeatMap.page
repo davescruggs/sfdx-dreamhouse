@@ -18,7 +18,7 @@
 
         <head>
             <link rel="stylesheet" href="{!URLFOR($Resource.leaflet1,'/leaflet.css')}" />
-            <title>Heat Map</title>
+            <title>Real Estate Heat Map</title>
             <style>
                 .map {
                     height: 480px;
@@ -54,10 +54,10 @@
             <script>
 
                 function getSLDSPath() {
-                	return "{!URLFOR($Asset.SLDS)}";
+                    return "{!URLFOR($Asset.SLDS)}";
                 }
 
-            	function getRandomNumber(min, max) {
+                function getRandomNumber(min, max) {
                     return Math.floor(Math.random() * (max - min + 1)) + min;
                 }
             
