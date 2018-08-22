@@ -7,6 +7,13 @@ node_modules
 .idea
 .tern-project
 .settings
+.vscode
 selenium-client-jars/
 test/artifacts
 assets/server.key
+selenium-client-jars/
+test/artifacts
+setenv.sh 
+assets/server.key 
+assets/server.crt
+assets/server.csr 

@@ -18,6 +18,7 @@
 
         <head>
             <link rel="stylesheet" href="{!URLFOR($Resource.leaflet1,'/leaflet.css')}" />
+            <title>Heat Map</title>
             <style>
                 .map {
                     height: 480px;
